@@ -63,6 +63,8 @@ Le mode `pot` exécute du code généré par le modèle : à lancer dans Colab, 
 - `analyze.py` : statistiques, tests et graphique
 - `results_v2/` : résultats bruts (`.jsonl`), `summary.md`, `summary.csv`, `accuracy.png`
 - `erreurs_cot_1.5B_classe.csv` : analyse manuelle des erreurs
+- - `PROTOCOLE.md` : protocole de l'étude 2, écrit avant le test final, avec les résultats
+- `results_new/` : résultats bruts de l'étude 2 (300 problèmes, `.jsonl`)
 
 ## Auteur
 Mohamed Fouad Akorédé LIGALI, Licence en informatique de gestion (ENEAM, Bénin).
