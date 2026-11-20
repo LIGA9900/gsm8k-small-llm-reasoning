@@ -66,3 +66,13 @@ Le mode `pot` exécute du code généré par le modèle : à lancer dans Colab, 
 
 ## Auteur
 Mohamed Fouad Akorédé LIGALI, Licence en informatique de gestion (ENEAM, Bénin).
+## Étude 2 : « lister les données » aide-t-il ? (résultat négatif)
+
+Évaluation finale sur 300 problèmes neufs du jeu de test GSM8K, avec un protocole écrit avant le test (voir `PROTOCOLE.md`). Modèle : Qwen2.5-1.5B-Instruct.
+
+| Stratégie | Exactitude | IC 95 % |
+|---|---|---|
+| cot | 71,3 % | [66,0 ; 76,2] |
+| extract_quote | 70,7 % | [65,3 ; 75,5] |
+
+Test de McNemar exact : p = 0,91. **Aucun effet détectable** : recopier les phrases contenant des nombres avant de résoudre n'améliore pas l'exactitude de ce modèle, et la méthode est plus lente. Les résultats bruts sont dans `results_new/`.
